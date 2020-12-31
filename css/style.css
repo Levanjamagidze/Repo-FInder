@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:"Roboto";
+    }
+    
+    body{
+        background-color:#eee;
+        background:radial-gradient(circle, rgb(132, 56, 231) 0%, rgba(0,0,0,1) 
+        100%);
+    }
+    
+    .container{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    
+    
+    .input_wrapper{
+        position: relative;
+        width:500px;
+        height:50px;
+        background-color: #fff;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .input_user{
+        width:100%;
+        height:100%;
+        background-color:#fff;
+        border:none;
+        padding:5px 160px 5px 15px;
+        box-sizing:border-box;
+    }
+    
+    ::placeholder{
+      color:#bdbdbd;          
+    }
+    
+    :focus{
+        outline:none;
+    }
+    
+    .btn_submit{
+        width:150px;
+        height:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #000;
+        color:#fff;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+
+    .btn_submit:hover{
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+    
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        width:850px;
+        box-shadow: 5px 42px 48px -34px rgba(0,0,0,.75);
+    }
+    
+    .user_info{
+        width:30%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #bdbdbd;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px ;
+        padding:50px;
+        box-sizing: border-box;
+    }
+    
+    img{
+        width:150px;
+        height:150px;
+        border-radius: 50%;
+        border:1px solid #000;
+        object-fit: cover;
+    }
+    
+    .user_name{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    h3{
+        font-size: 16px;
+        font-weight: normal;
+        margin:0;
+    }
+    
+    h1{
+        font-size: 25px;
+        margin:5px 0;
+    }
+    
+    .follow{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    p{
+        font-size:14px;
+    
+    }
+    
+    span{
+        font-size: 22px;
+        font-weight: bold;
+        display: block;
+        margin-top: 10px;
+    
+    }
+    
+    .repo{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:50px 20px;
+        box-sizing: border-box;
+        background:radial-gradient(circle, rgba(113, 70, 231, 0.562) 0%, rgba(0,0,0,1) 
+        100%);
+        color:#fff;
+    }
+    
+    .repo h1{
+        font-size:24px;
+        margin-bottom: 15px;
+    }
+    
+    .repos_details{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .item_{
+        width:47%;
+        border:1px solid #38ada9;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding:10px;
+        box-sizing: border-box;
+        
+    }
+    
+    .repo_name{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .repo_details_{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .info_star{
+        font-size: 12px;
+    }
+    
+    .info_fork{
+        margin-right: 5px;
+    }
+    
+    .info_size{
+        margin-right: 5px;;
+    }
+    
+
+    .button{
+        background-color:#38ada9;
+    }
+
+  a{
+        color:#fff;
+        text-decoration:none;
+        border:2px solid #095552;
+        border-radius: initial;
+    }
+    a:hover{
+        transform: scale(0.90);
+        opacity: 0.9;
+        background-color: #095552;
+    }
+    
